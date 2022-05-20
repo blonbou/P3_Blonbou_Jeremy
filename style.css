@@ -1,0 +1,56 @@
+.texte_font{
+    font-family: 'Roboto', sans-serif;
+}
+.Logo_titres{
+    font-family: 'Shrikhand', cursive;
+}
+
+body{
+    width: 374px;
+    margin: auto;
+}
+.flex_colon{
+    display: flex;
+    flex-direction: column;
+}
+/*logo*/
+.taille_logo-cude{
+ 
+   
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.taille_logo{
+    width: 196px;
+
+}
+/*fin*/
+.flexcentr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*map*/
+.taille_map{
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    box-shadow:  -1px -5px 5px -1px #141414;
+}
+.marg_icon{
+    margin-right: 10px;
+}
+/*fin*/
+/*texte*/
+.taille_cude_texte{
+    height: 100px;
+    
+}
+.taille_text{
+ width: 80%;
+ text-align: center;
+ margin:auto;
+ 
+}

@@ -1,0 +1,43 @@
+.logo {
+  height: 55px;
+  @extend %flexcentr;
+
+  &_taille {
+    width: 150px;
+  }
+}
+
+.map {
+  height: 45px;
+  box-shadow: 0 4px 6px -6px grey inset;
+  background-color: $gris;
+  @extend %flexcentr;
+  &_text {
+    margin-right: 30px;
+    margin-left: 15px;
+  }
+}
+.accueille {
+  background-color: $grisclaire;
+  text-align: center;
+  @extend %flexcolom;
+
+  &_text {
+    margin-left: 15px;
+    margin-bottom: 50px;
+    font-size: 19px;
+  }
+}
+.btn {
+  width: 240px;
+  height: 70px;
+  border-radius: 50px 50px;
+  margin-bottom: 50px;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 121, 218, 1) 41%,
+    rgba(147, 86, 220, 1) 100%
+  );
+  @extend %flexcentr;
+}

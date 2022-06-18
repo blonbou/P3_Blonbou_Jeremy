@@ -1,0 +1,30 @@
+.btn_menu{
+    @extend %flexcentr;
+    margin: auto;
+}
+
+.btn_menu {
+  width: 340px;
+  height: 70px;
+  border-radius: 20px 20px;
+  background-color: $grisclaire;
+  @extend %flexcentr;
+  margin-bottom: 25px;
+  position: relative;
+  &_icone{
+    margin-right: 20px;
+   
+  }
+}
+.btn_menu_n{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px 25px;
+    background-color: $Primaire;
+    @extend %flexcentr;
+    position: absolute;
+    color: white;
+    left: -15px;
+   
+
+}

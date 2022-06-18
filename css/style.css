@@ -1,4 +1,4 @@
-.btn, .map, .logo {
+.btn_menu_n, .btn_menu, .btn, .map, .logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ html {
 }
 
 .accueille {
-  background-color: #fcfbfb;
+  background-color: #f5f5f5;
   text-align: center;
 }
 .accueille_text {
@@ -51,6 +51,32 @@ html {
   margin-bottom: 50px;
   color: white;
   background: linear-gradient(180deg, rgb(255, 121, 218) 41%, rgb(147, 86, 220) 100%);
+}
+
+.btn_menu {
+  margin: auto;
+}
+
+.btn_menu {
+  width: 340px;
+  height: 70px;
+  border-radius: 20px 20px;
+  background-color: #f5f5f5;
+  margin-bottom: 25px;
+  position: relative;
+}
+.btn_menu_icone {
+  margin-right: 20px;
+}
+
+.btn_menu_n {
+  width: 30px;
+  height: 30px;
+  border-radius: 25px 25px;
+  background-color: #9356DC;
+  position: absolute;
+  color: white;
+  left: -15px;
 }
 
 /*# sourceMappingURL=style.css.map */
